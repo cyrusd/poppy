@@ -1,0 +1,12 @@
+{application, poppy,
+ [
+  {description, ""},
+  {vsn, "1"},
+  {registered, []},
+  {applications, [
+                  kernel,
+                  stdlib
+                 ]},
+  {mod, { poppy_app, []}},
+  {env, []}
+ ]}.
